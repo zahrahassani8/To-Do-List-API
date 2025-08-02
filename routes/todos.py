@@ -14,7 +14,7 @@ TODOS = [
 ]
 
 
-@router.get("/", tags=["Health Check"])
+@router.get("/", tags=["TODO List"])
 async def home():
     return {"message": "FastAPI is working!"}
 
